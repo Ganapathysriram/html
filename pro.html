@@ -1,0 +1,294 @@
+<html>
+<head>
+<title>
+</title>
+<style type="text/css"> 
+h2 {
+   
+font-size:1.8em;
+   font-weight:600;
+   color:#F05136;
+   margin-right:auto;
+   cursor:pointer;
+}
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700&display=swap);
+* {
+margin:0;
+padding:0;
+font-family:'Nunito Sans', sans-serif;
+}
+
+#head {
+   background-color: darkred;
+display:flex;
+   margin:15px;
+}
+
+#logo {
+   
+font-size:1.8em;
+   font-weight:600;
+   color:#F05136;
+   margin-right:auto;
+   cursor:pointer;
+}
+
+.nav-bar{
+   
+list-style:none;
+   display:flex;
+   justify-content:flex-start;
+   align-items:center;
+   font-size:1.2em;
+}
+
+.nav-bar a {
+   
+text-decoration:none;
+   color:#000;
+   margin-right:30px;
+}
+
+.nav-bar a:hover {
+   
+color:#F05136;
+}
+
+.box {
+   
+text-decoration:none;
+   text-align:center;
+   letter-spacing:.5px;
+   background:#F05136!important;
+   color:#FFF!important;
+   font-size:1em;
+   border-radius:5%;
+   cursor:pointer;
+   border-color:#000;
+   padding:10px;
+   font-weight:80;
+}
+
+#home {
+   
+background-color:#000;
+   color:#FFF;
+   height:450px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+}
+#home h1 {
+   background-color:#000;
+   letter-spacing:.5px;
+   font-size:3em;
+}
+#home h2 {
+   background-color:#000;
+   letter-spacing:.5px;
+   font-size:1.5em;
+   font-weight:lighter;
+}
+
+#bio {
+   
+display:flex;
+   align-items:center;
+}
+#bio img {
+   border-radius:100%;
+   margin:100px;
+}
+#bio section {
+   margin:10px;
+}
+#bio section p {
+   padding:20px 0;
+   font-size:1em;
+   background-color: darkslateblue;
+   font-size: larger;
+}
+#bio h1 {
+   letter-spacing:.5px;
+   font-size:2.5em;
+   font-weight:400;
+   background-color: deeppink;
+}
+
+#portfolio {
+   
+background:url(Assests/Porfolio-background.svg);
+   background-color:#000;
+   color:#FFF;
+   display:flex;
+   flex-direction:column;
+   height:400px;
+   text-align:center;
+   margin:20px 20px;
+   padding:1.5rem;
+   font-size: large;
+}
+
+#skills h2,h3 {
+   text-align:center;
+}
+#skills ul {
+   list-style:none;
+   font-size:1em;
+}
+#skills ul li {
+   margin:10px 0;
+}
+.skill-container {
+   display:flex;
+   justify-content:space-around;
+}
+
+progress[value] {
+   
+height:10px;
+   width:350px;
+   -webkit-appearance:none;
+}
+progress[value]::-webkit-progress-bar {
+   background-color:grey;
+   border-radius:2px;
+   box-shadow:0 2px 5px rgba(0,0,0,0.25) inset;
+}
+::-webkit-progress-value {
+   background-color:#F05136;
+}
+
+#footer *{
+   
+background-color:#000;
+   color:#FFF;
+}
+ 
+.input {
+   line-height:2em;
+   width:350px;
+   border-radius:3px solid #FFF;
+}
+ .container { 
+            display: flex;
+            background-color: brown;
+}
+.container>div{
+   background-color: red;
+   color: black;
+   margin: 20px;
+   padding: 40px;
+   font-size: 20px;
+}
+ 
+
+</style>
+</head>
+<body>
+<nav id="head">
+<p id="logo"> GOAL </p>
+
+<ul class="nav-bar">
+
+<li><a href="#home">HOME</a></li>
+<li><a href="#bio">BIO</a></li>
+<li><a href="#portfolio">PORTFOLIO</a></li>
+<li><a href="#skills">SKILLS</a></li>
+<li><a href="#contact"class="box">CONTACT</a></li>
+
+</ul>
+</nav>
+<main id="home">
+<h1>I Love </h1>
+<h1 style="color:lightskyblue;">ACHIEVING</h1>
+</main>
+
+<article id="bio">
+<img src="C:\Users\Ram\Downloads\download.jpg" height="250px" width="250px" alt="image"/>
+<section><h1> The Academy </h2>
+<p>I am a passionate Engineer with a degree in Computer Science Engineering.
+           My very first experience with code was at the time when I started my own blog.
+           My struggle to customize the blog pages introduced me to HTML & CSS.
+           Sooner, the excitement of having the power to structure pages on my own sounded amazing
+           and that’s when I decided to pursue Web development.</p>
+
+<p>Recently, I have taken up a Full Stack Development program with FACE.
+           I have knowledge of HTML, CSS, and JavaScript, Java, C++ and Data Structures.
+           The rational thought process and goal-oriented planning are my strengths.</p>
+
+<p>I am currently on the lookout for a challenging role to build
+           products that make a difference.</p>
+ <a href="https://res.cloudinary.com/dtzpohsae/raw/upload/v1579334783/Resume_ey74yp.docx"class="box">Download My Resume</a>
+</section>
+</article>
+
+<article id="portfolio">
+<h1>Port Folio</h1>
+<p>Here some of my projects are </p><br>
+<hr width="100%">
+<div class="container">
+<div id="col1">
+<img class="portfolio-icon" src="C:\Users\Ram\Downloads\ron.jpg" height="50px" width="50px" alt="Icon">
+  <h3>Personal Blog</h3>
+<p> A blog where I pen my own thoughts on programming</p>
+</div>
+<div id="col2">
+ <img class="portfolio-icon" src="C:\Users\User\Downloads\firefox.png" height="50px" width="50px" alt="Icon">
+  <h3>Tic Tac Toe</h3>
+<p> complete tic tac toe game</p>
+</div>
+<div id="col3">
+<img class="portfolio-icon" src="C:\Users\User\Downloads\firefox.png" height="50px" width="50px" alt="Icon">
+  <h3>Student Voting System</h3>
+<p> Voting system for an institution</p>
+</div>
+</div>
+</article>
+
+<article id="skills">
+  <h2>Skills</h2>
+<section class="skill-container">
+<section>
+<h3>TECHNICAL SKILLS</h3>
+<ul>
+<li>HTML</li>
+<li><progress value="25" max="100"></progress></li>
+<li>CSS</li>
+<li><progress value="56" max="100"></progress></li>
+<li>JAVASCRIPT</li>
+<li><progress value="84" max="100"></progress></li>
+<li>JAVA</li>
+<li><progress value="70" max="100"></progress></li>
+<li>PYTHON</li>
+<li><progress value="22" max="100"></progress></li>
+</ul>
+</section>
+
+<section>
+<h3>Language</h3>
+<ul>
+<li>ENGLISH</li>
+<li><progress value="85" max="100"></progress></li>
+<li>TAMIL</li>
+<li><progress value="100" max="100"></progress></li>
+<li>HINDI</li>
+<li><progress value="50" max="100"></progress></li>
+<li>MALAYALAM</li>
+<li><progress value="60" max="100"></progress></li>
+<li>TELUGU</li>
+<li><progress value="10" max="100"></progress></li>
+</ul>
+</section>
+</section>
+</article>
+<section ="footer">
+<h2>Contact:</h2>
+<input type="text" value="enter the name">
+<input type="text" value="enter the contact no">
+<input type="text" value="enter email address">
+<button type="button">send a message</button>
+</section>
+</body>
+</html>
